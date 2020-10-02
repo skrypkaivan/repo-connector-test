@@ -41,8 +41,8 @@
          // Two additional Smartling directives are provided.
          // Also files will be submitted only for zh-CN locale
          {
-            "type"                      : "IDML",
-
+            "type"                      : "idml",
+            "pathRegex"                 : "*\\.idml",
             "translationPathExpression" : "${locale}/${originalFile.name}",
             "smartlingDirectives"       : [
                  "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
