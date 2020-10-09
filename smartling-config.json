@@ -41,7 +41,7 @@
          // Two additional Smartling directives are provided.
          // Also files will be submitted only for zh-CN locale
          {
-            "type"                      : "yml",
+            "type"                      : "YAML",
             "pathRegex"                 : "en.yml",
             "translationPathExpression" : "${locale}/${originalFile.name}",
             "smartlingDirectives"       : [
