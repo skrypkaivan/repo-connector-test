@@ -8,6 +8,10 @@
          {
              "smartling" : "fr-FR",
              "application" : "fr-FR"
+         },
+        {
+             "smartling" : "ru-RU",
+             "application" : "ru-RU"
          }
      ],
 
@@ -53,6 +57,10 @@
                 {
                     "smartling" : "fr-FR",
                     "application" : "fr-FR"
+                },
+                {
+                    "smartling" : "ru-RU",
+                    "application" : "ru-RU"
                 }
             ],
          }
