@@ -47,7 +47,7 @@
          {
             "type"                      : "PDF",
             "pathRegex"                 : "cv.pdf",
-            "translationPathExpression" : "${locale}/${originalFile.name}",
+            "translationPathExpression" : "${locale}/${originalFile.baseName}.docx",
             "smartlingDirectives"       : [
                  "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
                  "smartling.variants_enabled = true"
