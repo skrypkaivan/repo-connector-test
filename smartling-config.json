@@ -63,6 +63,26 @@
                     "application" : "ru-RU"
                 }
             ],
+         },
+         {
+            "type"                      : "YML",
+            "pathRegex"                 : "en.yml",
+            "translationPathExpression" : "${locale}/${originalFile.baseName}.yml",
+            "smartlingDirectives"       : [
+                 "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
+                 "smartling.variants_enabled = true"
+            ],
+            // If "locales" is defined then it overrides global configuration in the top of this config
+            "locales": [
+                {
+                    "smartling" : "fr-FR",
+                    "application" : "fr-FR"
+                },
+                {
+                    "smartling" : "ru-RU",
+                    "application" : "ru-RU"
+                }
+            ],
          }
      ]
 }
