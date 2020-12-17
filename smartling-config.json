@@ -65,7 +65,7 @@
             ],
          },
          {
-            "type"                      : "YML",
+            "type"                      : "YAML",
             "pathRegex"                 : "en.yml",
             "translationPathExpression" : "${locale}/${originalFile.baseName}.yml",
             "smartlingDirectives"       : [
