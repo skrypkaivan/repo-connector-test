@@ -66,7 +66,7 @@
          },
          {
             "type"                      : "YAML",
-            "pathRegex"                 : "en.yml",
+            "pathRegex"                 : "en-test.yml",
             "translationPathExpression" : "${locale}/${originalFile.baseName}.yml",
             "smartlingDirectives"       : [
                  "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
