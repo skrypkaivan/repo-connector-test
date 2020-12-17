@@ -46,7 +46,7 @@
          // Also files will be submitted only for zh-CN locale
          {
             "type"                      : "PDF",
-            "pathRegex"                 : "cv.pdf",
+            "pathRegex"                 : "cv(.*).pdf",
             "translationPathExpression" : "${locale}/${originalFile.baseName}.docx",
             "smartlingDirectives"       : [
                  "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
